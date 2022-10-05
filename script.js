@@ -2,11 +2,11 @@
 var game = new Game();
 console.log(game.tetramino, JSON.stringify(game.to_shape()))
 const Keybind = {'keydown':{}, 'keyup':{}}
-var Config = {'das':100, 'arr':0, 'delay':0, 'pressing_left':false, 'pressing_right': false, 'pressing_down': false, 'pressing':{},
+var Config = {'das':80, 'arr':0, 'delay':0, 'pressing_left':false, 'pressing_right': false, 'pressing_down': false, 'pressing':{},
 'skim_ind':false, 'mdhole_ind':false, 'unqiue_ind':true, 'smooth_ind':true, 'auto_next_ind':true,
 'mode':'prepare', 'no_of_unreserved_piece':7, 'no_of_piece':7,
 'no_of_trial':0, 'no_of_success':0}
-var Customized_key = ['ArrowLeft','ArrowRight','ArrowDown','Space','KeyZ','KeyX','KeyA','ShiftLeft','KeyR','KeyP']
+var Customized_key = ['ArrowLeft','ArrowRight','ArrowDown','KeyV','KeyS','KeyD','KeyW','ArrowUp','KeyR','KeyP']
 var board = document.getElementById('board')
 
 const clone = (items) => items.map(item => Array.isArray(item) ? clone(item) : item);
