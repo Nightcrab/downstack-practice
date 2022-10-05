@@ -82,6 +82,10 @@
             <button class="game_button cyan" onclick="play_a_quad_map(); board.focus()">Quad Practice</button>
 
             <button id="game_button" class="game_button yellow" onclick="toggleOptions()">Hide Options</button>
+            
+            <button class="game_button orange" onclick="retry(); board.focus()">Retry</button>
+            <button class="game_button red" onclick="show_ans(); board.focus()">Show Answer</button>
+            
             <div id="gamemode" class="open">
                 <table>
                     <tbody>
@@ -93,9 +97,6 @@
                     </tbody>
                 </table>
             </div>
-            
-            <button class="game_button orange" onclick="retry(); board.focus()">Retry</button>
-            <button class="game_button red" onclick="show_ans(); board.focus()">Show Answer</button>
 
         </div>
     </div>
