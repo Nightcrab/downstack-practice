@@ -1028,7 +1028,7 @@ function show_ans(){
     if (Record.board.length>0){
         game.board = clone(Record.board[Record.board.length-1])
         render()
-        setTimeout(retry, 3000)
+        setTimeout(retry, 1000)
 }
 }
 /*
